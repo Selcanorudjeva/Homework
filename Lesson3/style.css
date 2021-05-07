@@ -1,0 +1,14 @@
+table{
+    margin-left: 650px;
+    font-size: 25px;
+    color: blanchedalmond;
+    text-align-last: center;
+    background-color: rgb(41, 7, 41);
+    font-family: 'Times New Roman', Times, serif ;
+
+}
+marquee{
+    font-size: 30px;
+    color: black;
+    text-shadow: 1px 1px 1px plum;
+}
