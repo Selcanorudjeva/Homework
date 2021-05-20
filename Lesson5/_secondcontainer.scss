@@ -1,0 +1,79 @@
+@mixin font{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    padding-left: 150px;
+    font-size: 40px;
+    margin-top: 70px;
+    @include font;
+    text-shadow: 2px 3px 5px rgb(182, 0, 76);
+}
+.whoweare{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(253, 211, 218);
+}
+.promo{
+    height: 720px;
+    width: 600px;
+    margin-left: 100px;
+    form {
+        display: flex;
+        flex-direction: column;
+        input{
+            margin-top: 30px;
+            width:200px;
+            height: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 30px;
+            margin-left: 190px;
+            border-radius: 10px;
+            border:none;
+            box-shadow: 2px 2px 2px rgb(255, 0, 140) ;
+        }
+        select{
+            width: 200px;
+            height: 20px;
+            margin-left: 190px;
+        }
+        .button{
+            color:rgb(255, 0, 140) ;
+            font-size: 20px;
+            border-radius: 1px;
+            border:none;
+            letter-spacing: 4px;
+            text-align: center;
+            font-weight: bold;
+            @include font;
+        }
+        .button:hover{
+            color:white;
+            background-color:rgb(255, 0, 140) ;
+        }
+    }
+}
+h2{
+    font-family: 'Lucida Handwriting'; 
+    color: rgb(44, 40, 40);
+    font-size: 40px;
+    text-align: center;
+}
+@mixin size {
+    width: 500px;
+    height: 600px;
+}
+.secondcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    @include size;
+ img{
+    @include size;
+ }
+ video{
+    @include size;
+ }
+}

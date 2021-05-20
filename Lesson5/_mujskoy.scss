@@ -1,0 +1,29 @@
+.mujskoy{
+    width: 100%;
+    height: 800px;
+    background-size: 100%;
+    background-image: url('img/menmen.jpg');
+    p{
+        text-transform: uppercase;
+        padding-top: 200px;
+        padding-left: 200px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 2px 2px 2px rgb(8, 2, 34);
+    }
+    .buybutton{
+        width: 150px;
+        height: 30px;
+        font-size: 20px;
+        margin-left: 470px;
+        border:none;
+        background-image: linear-gradient(45deg, #9597b17c 0%, #2c161996 50%, #2b0404 100%);
+        background-position: 100% 0;
+        box-shadow: 0 19px 35px 0 rgba(49, 0, 15, 0.35);
+        color: whitesmoke;
+
+    }
+}
+.mujskoy:hover{
+    background-image: url('img/menmenmen.jpg');
+}

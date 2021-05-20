@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: 800px;
+    background-size: 100%;
+    background-image: url('img/fotoo.jpg');
+    h1{ 
+        padding-top: 300px ;
+        padding-left: 150px;
+        font-family: 'Lucida Handwriting'; 
+        color: rgb(44, 40, 40);
+        font-size: 40px;
+    }
+    p{
+        font-size: 30px;
+        padding-left: 180px;
+        margin-top: -15px;
+        font-family: 'Lucida Sans';
+    }
+    button{
+        margin-left: 500px;
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans';
+        color: white;
+        background-image: linear-gradient(45deg, #d76a947c 0%, #7e395b96 50%, #741742 100%);
+        background-position: 100% 0;
+        box-shadow: 0 19px 35px 0 rgba(49, 0, 15, 0.35);
+         transition: .5s;
+        border-radius: 30px;
+    }
+    button:hover {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        background-position: 0 0;
+        background: white;
+        color: rgb(61, 2, 17);
+      }
+}

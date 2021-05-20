@@ -1,0 +1,35 @@
+.foto1 img{
+    width: 250px;
+    height: 90px;
+}
+@mixin content {
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    height: 90px;
+    @include content;
+}
+nav{
+    width: 30%;
+    height: 100px;
+}
+ul{
+    @include content;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+    font-family: 'Lucida Handwriting';
+    line-height: 70px;
+    a{
+        text-decoration: none;
+        color: rgb(17, 12, 12);
+        text-transform: uppercase;
+        transition: 1s;
+    }
+    a:hover{
+        text-shadow: 2px 2px 4px black;
+        }
+}
