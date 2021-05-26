@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+@mixin font1 {
+    color: white;
+    font-family: 'Nirmala UI';
+    font-weight: 600;
+}
+////////////////////
+h1{
+    @include font1;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 120px;
+    opacity: 0.1;
+    letter-spacing: 8px;
+}
+h2{
+    @include font1;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -87px;
+     span{
+         color: #ffb400;
+     }
+}
+.firstside{
+    margin-top: 90px;
+   
+    .yazi{
+        color: white;
+        font-size: 28px;
+        font-family: 'Corbel';
+        margin-left: 350px;
+    }
+    .ikinciyazi{
+        margin-top: 15px;
+        color: white;
+        font-size: 18px;
+        width: 20%;
+        line-height: 30px;
+        font-family: 'Corbel';
+        margin-left: 350px;
+    }
+}
+.email{
+    margin-top: 30px;
+    margin-left: 350px;
+    .ilk{
+        i{
+            width: 80px;
+            height: 50px;
+            color: #ffb400;
+            font-size: 40px;
+        }
+        p{
+            color: white;
+            transform: translate(50px,-45px);
+            line-height: 20px;
+            font-family: 'Ebrima';
+        }
+    }
+}
+.ikincidi{
+    margin-top: -30px;
+    i{
+        width: 80px;
+        height: 50px;
+        color: #ffb400;
+        font-size: 43px;
+    }
+    p{
+        color: white;
+        transform: translate(50px,-45px);
+        line-height: 20px;
+        font-family: 'Ebrima';
+    }
+}
+.ikonkalar1{
+        transform: translate(0px,-20px); 
+         display: flex;
+         flex-direction: row;
+         margin-left: 330px;
+     .icon1{
+            width: 35px;
+            height: 35px;
+            background-color: rgba(211, 211, 211, 0.295);
+            border-radius: 30px;
+
+            margin-left: 20px;
+            &:hover{
+                   background-color: #ffb400;
+                     }
+            a{
+                text-align: center;
+                text-decoration: none;
+                i{
+                   line-height: 35px;
+                   margin-left: 8px;
+                   color: white;
+                   font-size: 18px;
+                   text-align: center;
+                }
+            }
+          }
+
+        }
+
+        .form {
+            transform: translate(800px,-350px);
+            form{
+                input{
+                    width: 12%;
+                    height: 50px;
+                    background-color: rgba(211, 211, 211, 0.178);
+                    border-radius: 20px;
+                    border:none;
+                    margin-left: 40px;
+
+                    &:hover{
+                        border:1px solid #ffb400;
+                    }
+                }
+                textarea{
+                    background-color: rgba(211, 211, 211, 0.185);
+                    border-radius: 20px;
+                    border:none;
+                    margin-top: 30px;
+                    margin-left: 40px;
+                    &:hover{
+                        border:1px solid #ffb400;
+                    }
+                }
+            }
+        }
+
+        .button1 button{
+            width: 200px;
+            height: 50px;
+            margin-left: 40px;
+            border-radius: 20px;
+            margin-top:20px;
+            background-color: #ffb400;
+            border:none;
+        
+            a{
+                text-decoration: none;
+                @include font;
+                font-size: 16px;
+            }
+        }
+
+        .ikonkalar{
+            transform: translate(0px,-700px);
+    
+    .icon{
+        transition: 2s;
+        width: 50px;
+        height: 50px;
+        margin-left: 1000px;
+        float: right;
+        background-color: #ffb400;
+        border-radius: 30px;
+        transition: 2s;
+        &:hover{
+          width: 160px;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            i{
+               line-height: 40px;
+               padding-left: 15px;
+               color: white;
+               font-size: 20px;
+               margin-top: 6px;
+            }
+        }
+      }
+    }

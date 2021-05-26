@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+/////////////////////////mixinler
+@mixin font1 {
+    color: white;
+    font-family: 'Nirmala UI';
+    font-weight: 600;
+}
+@mixin font2 {
+    color: white;
+    text-align: center;
+    line-height: 215px;
+    font-size: 27px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+@mixin display {
+    display: flex;
+     justify-content: space-evenly;
+     width: 64%;
+}
+
+@mixin box {
+        width: 360px;
+        height: 215px;
+        background-color:  rgba(180, 180, 180, 0.295);
+        border-radius: 10px;
+}
+/////////////////////////////////////
+h1{
+    @include font1;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 120px;
+    opacity: 0.1;
+    letter-spacing: 8px;
+}
+h2{
+    @include font1;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -90px;
+     span{
+         color: #ffb400;
+     }
+}
+.firstline{
+     @include display;
+     transform: translate(350px,100px);
+    .box{
+        @include box;
+        p{
+           @include font2;
+         }
+           &:hover{
+            background-color: #ffb400;
+           }
+    }
+}
+.secondline{
+    @include display;
+    transform: translate(350px,140px);
+   .box{
+    @include box;
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.thirdline{
+    @include display;
+    transform: translate(350px,180px);
+   .box{
+    @include box;
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.fiveline{
+    @include display;
+    transform: translate(350px,220px);
+   .box{
+    @include box;
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.sixline{
+    @include display;
+    transform: translate(350px,260px);
+   .box{
+    @include box;
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.sevenline{
+    @include display;
+    transform: translate(350px,300px);
+   .box{
+    @include box;
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.eightline{
+    @include display;
+    transform: translate(350px,340px);
+   .box{
+    @include box;
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.nineline{
+    @include display;
+    transform: translate(350px,380px);
+   .box{
+    @include box;
+       
+       p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.tenline{
+    @include display;
+    transform: translate(350px,420px);
+   .box{
+      @include box;
+
+     p{
+        @include font2;
+     }
+       &:hover{
+        background-color: #ffb400;
+       }
+   }
+}
+.elevenline{
+@include display;
+transform: translate(-45px,440px);
+  
+.box{
+        width: 360px;
+        height: 215px;
+        background-color:  rgba(180, 180, 180, 0.295);
+        border-radius: 10px;
+        p{
+            @include font2;
+
+         }
+           &:hover{
+            background-color: #ffb400;
+           }
+       }
+}
+
+.ikonkalar{
+    transform: translate(0px,700px); 
+      .icon{
+        transition: 2s;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+        margin-left: 1000px;
+        float: right;
+        background-color: #ffb400;
+        margin-top: 20px;
+        border-radius: 30px;
+        transition: 2s;
+        &:hover{
+                   width: 160px;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            i{
+               line-height: 40px;
+               margin-left: 15px;
+               color: white;
+               font-size: 20px;
+               margin-top: 6px;
+            }
+        }
+      }
+    }
