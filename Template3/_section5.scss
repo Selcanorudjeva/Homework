@@ -1,0 +1,210 @@
+@mixin font {
+    width: 30%;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #303233;
+    margin-top: 20px;
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.178);
+    transform: translate(40px, 90px);
+}
+
+@mixin font2 {
+    color: whitesmoke;
+    font-size: 19px;
+    transform: translate(70px, 16px);
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+@mixin font3 {
+    width: 38px;
+    height: 38px;
+    background-color: #414242;
+    transform: translate(20px, -34px);
+    border-radius: 10px;
+}
+
+.section5 {
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+    display: flex;
+    .box1 {
+  
+
+        h1{
+            color: rgba(211, 211, 211, 0.911);
+            margin-top: 70px;
+            font-weight: 700;
+            transform: translate(30px,0px);
+        }
+        p{
+            color: rgba(211, 211, 211, 0.726);
+            width: 95%;
+            font-size: 18px;
+            transform: translate(30px,0px);
+        }
+            form{
+                .checkbox{
+                    width: 15%;
+                    height: 15px;
+                    transform: translate(0px,70px);
+                   background-color:  rgba(99, 99, 99, 0.726);
+                   color: rgba(99, 99, 99, 0.726);
+                }
+                .check{
+                    font-size: 18px;
+                    transform: translate(330px,32px);
+                    color: rgba(104, 104, 104, 0.726);
+                }
+                input{
+                    width: 40%;
+                    height: 60px;
+                    background-color: #1f2224;
+                    border-radius: 10px;
+                    border:1px solid rgba(211, 211, 211, 0.548);
+                    margin-left: 30px;
+                    &:hover{
+                        border:1px solid rgba(255, 255, 255, 0.562);
+                        color: white;
+                    }
+                }
+                textarea{
+                    background-color: #1f2224;
+                    border-radius: 10px;
+                    border:1px solid rgba(211, 211, 211, 0.548);
+                    transform: translate(30px,30px);
+                    &:hover{
+                        border:1px solid rgba(255, 255, 255, 0.562);
+                        color: white;
+                    }
+                }
+
+                button{
+                    transform: translate(40px,70px);
+                    width: 200px;
+                    height: 50px;
+                    background-color: #333538;
+                    color: #dde2e7;
+                     box-shadow: 1px 1px 22px #4b4b4b5b;
+                     border:none;
+                     border-radius: 10px;
+                     font-size: 20px;
+                     font-family: Verdana, Geneva, Tahoma, sans-serif;
+                     letter-spacing: 1px;
+                }
+            }
+        }
+ 
+    .box2 {
+        .get-the-app {
+            background: radial-gradient(37.53% 147.33% at 5.39% 8.57%, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #26282a 0%, #212325 100%);
+            width: 90%;
+            height: 500px;
+            border-radius: 30px;
+            box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.267);
+            transform: translate(40px, 60px);
+
+            h2 {
+                color: rgba(245, 245, 245, 0.63);
+                transform: translate(50px, 58px);
+            }
+
+            .apple {
+                @include font;
+                p {
+                    @include font2;
+                }
+
+                .iconkon {
+                    @include font3;
+                    i {
+                        color: #77c4d5;
+                        font-size: 27px;
+                        margin-top: 5px;
+                        margin-left: 8px;
+                    }
+                }
+            }
+
+            .google {
+                @include font;
+
+                p {
+                    @include font2;
+                }
+
+                .iconkon {
+                    @include font3;
+
+                    i {
+                        color: #77c4d5;
+                        font-size: 21px;
+                        margin: 8px;
+                    }
+                }
+            }
+
+            h3 {
+                color: rgba(245, 245, 245, 0.63);
+                transform: translate(350px, -136px);
+            }
+
+            .pr {
+                color: rgba(153, 153, 153, 0.63);
+                transform: translate(370px, -112px);
+            }
+
+            .pr1 {
+                color: rgba(153, 153, 153, 0.63);
+                transform: translate(360px, -109px);
+            }
+
+            .pr2 {
+                color: rgba(153, 153, 153, 0.63);
+                transform: translate(350px, -110px);
+            }
+
+            .dannie {
+                color: rgba(245, 245, 245, 0.63);
+                transform: translate(420px, -140px);
+            }
+
+            .xett {
+                width: 85%;
+                height: 0.5px;
+                background-color: rgba(83, 83, 83, 0.418);
+                transform: translate(50px, -110px);
+
+            }
+
+            .circle {
+                width: 50px;
+                height: 50px;
+                background-color: #353535;
+                border-radius: 30px;
+                display: inline-block;
+                box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.055);
+                transform: translate(35px, -78px);
+                margin-left: 15px;
+
+                &:hover {
+                    background-color: #222222;
+                }
+
+                i {
+                    color: rgba(245, 245, 245, 0.63);
+                    font-size: 21px;
+                    margin: 16px;
+
+                }
+            }
+
+            .yazi {
+                color: rgba(255, 255, 255, 0.459);
+                font-size: 20px;
+                transform: translate(300px, -115px);
+            }
+        }
+    }
+}

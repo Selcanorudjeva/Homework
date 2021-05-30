@@ -1,0 +1,46 @@
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    transform: translate(80px, 10px);
+}
+
+.navbarhisse {
+    height: 120px;
+    background-color: #232729;
+    z-index: 999;
+    top: 0;
+}
+
+.nav-item {
+    button {
+        background-color: #393c41;
+        color: #ced7e2;
+        margin-left: 40px;
+        width: 130px;
+        border: none;
+        box-shadow: 8px 8px 22px #5e5f5f5b;
+        height: 45px;
+        border-radius: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        transform: translate(0px, 6px);
+
+        &:hover {
+            background-color: #232729;
+        }
+    }
+
+    .nav-link {
+        font-family: 'Poppins', sans-serif;
+        transform: translate(0px, 6px);
+        font-size: 17px;
+        margin-right: 6px;
+        letter-spacing: 1px;
+
+        &:hover{
+            border-bottom: 3px solid #78c5d6;
+        }
+
+    }
+}

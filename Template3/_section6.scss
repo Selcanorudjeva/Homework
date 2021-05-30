@@ -1,0 +1,138 @@
+.wthatsnew{
+    background-image: linear-gradient(135deg, #3A3E41 0%, #2A2D30 49%, #242628 100%), linear-gradient(139deg, #434B54 1%, #2A2C2F 45%, #191B1E 75%);
+width: 100%;
+height: 250px;
+display: flex;
+justify-content: space-between;
+.yazilari{
+    h1{
+        color: lightgrey;
+        font-size: 50px;
+        transform: translate(80px,40px);
+        font-weight: 700;
+
+    }
+    p{
+        color: rgba(211, 211, 211, 0.582);
+        font-size: 24px;
+        width: 55%;
+        transform: translate(80px,50px);
+    }
+}
+.side{
+    p{
+        color: lightgrey;
+        display: inline-block;
+        transform: translate(-130px,100px);
+        margin-left: 30px;
+        font-size: 20px;
+
+        &:hover{
+            border-bottom: 3px solid #78c5d6;
+        }
+    }
+    .line{
+        width: 100%;
+        height: 1px;
+        background-color: rgba(211, 211, 211, 0.466);
+        transform: translate(-110px,100px);
+    }
+}
+}
+
+.photos{
+    display: flex;
+    justify-content: start;
+
+   .sekil{
+       width: 100%;
+       height: 500px;
+       h3{
+           color: whitesmoke;
+           font-size: 45px;
+           font-weight: 700;
+           transform: translate(60px,-300px);
+       }
+       p{
+        transform: translate(60px,-300px);
+        width: 80%;
+        font-size: 40px;
+        color: whitesmoke;
+    font-weight: 700;
+       }
+       img{
+      height: 500px;
+       }
+     
+   }
+}
+
+.vzvz1{
+    color: #d7e1ec;
+    font-weight: 700;
+    width: 100%;
+    font-size: 50px;
+    transform: translate(110px,100px);
+    
+}
+.vzvz{
+    color: rgba(245, 245, 245, 0.445);
+    transform: translate(430px,55px);
+}
+
+.section7{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 400px;
+    .card{
+        width: 70%;
+        height: 200px;
+        background-color: #272a2c;
+        color: #ced7e2;
+        box-shadow:1px 1px 22px #69696963 ;
+        border-radius: 20px;
+        position: relative;
+        top: 120px;
+        left: 50px;
+        margin-left: 50px;
+
+        &:hover{
+            border-bottom: 2px solid#78c5d6; ;
+        }
+    
+       .iconbox{
+           width: 50px;
+           height: 50px;
+           background-image: linear-gradient(
+    135deg
+    , #3A3E41 0%, #2A2D30 49%, #242628 100%), linear-gradient(
+    139deg
+    , #434B54 1%, #2A2C2F 45%, #191B1E 75%);
+           border: none;
+           border-radius: 10px;
+           transform: translate(0px,14px);
+    
+           .num{
+            text-align: center;
+            font-size: 25px;
+            transform: translate(0px,5px);
+            text-shadow: 8px 8px 22px black;
+            color:#78c5d6;
+            text-shadow: 1px 1px 20px rgba(245, 245, 245, 0.493);
+    
+           }
+       } 
+    
+       .card-body{
+        .card-title{
+            transform: translate(60px,-23px);
+        }
+        .card-text{
+            color: rgba(255, 255, 255, 0.397);
+            transform: translate(10px,-10px);
+        }
+       }
+    }
+    
+}
