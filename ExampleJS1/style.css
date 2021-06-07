@@ -1,0 +1,103 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 7px;
+  color: white;
+  -webkit-transform: translate(600px, 150px);
+          transform: translate(600px, 150px);
+}
+
+.container {
+  width: 90%;
+  height: 650px;
+  -webkit-transform: translate(100px, 150px);
+          transform: translate(100px, 150px);
+  display: inline-block;
+}
+
+.container .first .box {
+  width: 20%;
+  height: 200px;
+  display: inline-block;
+  -webkit-transform: translate(200px, 0px);
+          transform: translate(200px, 0px);
+  background-color: rgba(95, 158, 160, 0.479);
+  border-radius: 20px;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.container .first .box:hover {
+  background-color: rgba(31, 219, 226, 0.74);
+  cursor: pointer;
+}
+
+.container .second .box {
+  width: 20%;
+  height: 200px;
+  background-color: rgba(95, 158, 160, 0.479);
+  display: inline-block;
+  -webkit-transform: translate(200px, 0px);
+          transform: translate(200px, 0px);
+  border-radius: 20px;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.container .second .box:hover {
+  background-color: rgba(31, 219, 226, 0.74);
+  cursor: pointer;
+}
+
+.container .third .box {
+  width: 20%;
+  height: 200px;
+  background-color: rgba(95, 158, 160, 0.479);
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-transform: translate(200px, 0px);
+          transform: translate(200px, 0px);
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.container .third .box:hover {
+  background-color: rgba(31, 219, 226, 0.74);
+  cursor: pointer;
+}
+
+.box p {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+}
+
+.container .box button {
+  width: 20%;
+  height: 40px;
+  background-color: #0099ff;
+  -webkit-box-shadow: 2px 2px 2px #01012e;
+          box-shadow: 2px 2px 2px #01012e;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  border: none;
+  -webkit-transform: translate(130px, 0px);
+          transform: translate(130px, 0px);
+}
+
+.container .box button:hover {
+  cursor: pointer;
+}
+
+.container .box p {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.container .box img {
+  width: 20%;
+  height: 40px;
+  -webkit-transform: translate(130px, 20px);
+          transform: translate(130px, 20px);
+}
+/*# sourceMappingURL=style.css.map */
