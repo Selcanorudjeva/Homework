@@ -1,0 +1,205 @@
+.section-1{
+    width: 100%;
+    height: 1690px;
+    background-image: url('images/1.jpg');
+
+    .card-body p{
+        transform: translate(350px,200px);
+        font-size: 61px;
+        font-family:'Arial';
+        margin-top:10px;
+    }
+  .count-p{
+      display: flex;
+       flex-direction: row;
+       align-items: center;
+       transform: translate(400px,200px);
+    .count{
+        color:#00bcd4;
+        font-size: 50px;
+        font-family: 'Arial Black';
+        letter-spacing: 13px;
+
+    }
+    span{
+        color: rgba(211, 211, 211, 0.267);
+        font-size: 40px;
+        position: relative;
+        left: -10px;
+        top: -8px;
+    }
+  }
+  .count-t{
+      display: flex;
+      flex-direction: row;
+      p{
+          transform: translate(405px,180px);
+          font-size: 13px;
+        margin-right: 20px;
+        color: #f6ac40;
+      }
+  }
+  .count-t2{
+      color: white;
+      transform: translate(380px,210px);
+      p{
+          font-size: 24px;
+      }
+  }
+  .sifri{
+      width: 20%;
+      display: flex;
+      justify-content: space-between;
+      color:white;
+      transform: translate(398px,250px);
+      font-weight: 800;
+
+  }
+    .line{
+        width: 2px;
+        height: 28px;
+        transform: translate(415px,240px);
+        background-color: white;
+        position: relative;
+        z-index: 1;
+    }
+  .height{
+      width: 28%;
+      transform: translate(370px,210px);
+      .progress{
+         height: 30px;
+         border-radius: 20px;
+      }
+  }
+  .sifri1{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    transform: translate(398px,218px);
+    font-size: 14px;
+
+}
+  .buttons{
+      transform: translate(350px,300px);
+
+      button{
+          width: 13.5%;
+          height: 63px;
+          border-radius: 40px;
+          font-size: 21px;
+          letter-spacing: 2px;
+          font-weight: 600;
+      }
+  }
+
+  .section1-1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    transform: translate(0px,0px);
+    .text{
+        color: white;
+        transform: translate(60px,0px);
+        h1{
+            width: 50%;
+            font-size: 50px;
+            float: right;
+        }
+        p{
+            font-size: 16px;
+            width: 51%;
+            float: right;
+            transform: translate(10px,28px);
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 27px;
+        }
+        
+    }
+    .box{
+        margin-right: 10px;
+        transform: translate(60px,0px);
+        .container{
+            width: 85%;
+            height: 520px;
+            background-color: #36465077;
+
+            .first{
+                width: 375px;
+                height: 120px;
+                background-color: #f6ac40;
+                transform: translate(-14px,0px);
+                font-size: 45px;
+                color: white;
+                letter-spacing: 5px;
+                text-align: center;
+                padding-top: 23px;
+            }
+
+            .qutu{
+                width: 375px;
+                height: 55px;
+                border-bottom: 1px solid gray;
+                transform: translate(-14px,0px);
+                p{
+                    color: white;
+                    width: 100%;
+                    transform: translateY(10px);
+                    text-align: center;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                }
+            }
+
+            button{
+                width: 30%;
+                height: 40px;
+                transform: translate(120px,40px);
+                border-radius: 20px;
+            }
+        }
+
+        .container2{
+            width: 85%;
+            height: 520px;
+            background-color: #36465077;
+
+            .first{
+                width: 375px;
+                height: 120px;
+                background-color: #00bcd4;
+                font-size: 45px;
+                color: white;
+                letter-spacing: 5px;
+                text-align: center;
+                padding-top: 23px;
+            }
+
+            .qutu{
+                width: 375px;
+                height: 55px;
+                border-bottom: 1px solid gray;
+             
+                p{
+                    color: white;
+                    width: 100%;
+                    transform: translateY(10px);
+                    text-align: center;
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                }
+            }
+
+            button{
+                width: 30%;
+                height: 40px;
+                transform: translate(130px,40px);
+                border-radius: 20px;
+            }
+        }
+    }
+
+}
+}
