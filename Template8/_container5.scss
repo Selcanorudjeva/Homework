@@ -1,0 +1,141 @@
+.container-5{
+    width: 100%;
+    height: 750px;
+    background-color: whitesmoke;
+
+    .first-line{
+        width: 0.3%;
+        height: 130px;
+        transform: translate(870px,-40px);
+        background-color:#eb4359 ;
+    }
+
+    .second-line{
+        background-color:#e21732 ;
+        height: 4px;
+        width: 3%;
+        transform: translate(350px,0px);
+    }
+    h2{
+        font-weight: 700;
+        transform: translate(350px,10px);
+    }
+    p{
+        color: rgb(134, 134, 134);
+        transform: translate(350px,10px);
+    }
+    .view{
+        width: 8%;
+        height: 40px;
+        color: white;
+        border:none;
+        float: right;
+        background-color: #f43b57;
+        transform: translate(-350px,-60px);
+        &:hover{
+            transition: 1s;
+            color: white;
+            background: linear-gradient(90deg, rgba(252,46,46,1) 0%, rgba(253,62,29,1) 50%, rgba(252,69,153,1) 100%);
+    
+        }
+    }
+
+    .photos{
+        display: flex;
+        flex-direction: row;
+
+        .bir{
+            width: 20%;
+            height: 400px;
+            background-color: white;
+            transform: translate(360px,40px);
+            margin-right: 29px;
+            transition: 1s;
+            &:hover{
+            background: linear-gradient(90deg, rgba(252,46,46,1) 0%, rgba(253,62,29,1) 50%, rgba(252,69,153,1) 100%);
+                color:white;
+                transition: 1s;
+                transform: translate(360px,35px);
+                box-shadow: 4px 10px 3px #f43b57;
+            }
+            h4{
+                text-align: center;
+                transform: translate(0px,40px);
+            }
+            h5{
+                font-size: 15px;
+                transform: translate(0px,40px);
+                color: rgb(121, 121, 121);
+                 text-align: center;
+            }
+            img{
+                transform: translate(15px,80px);
+            }
+        }
+        .iki{
+            width: 20%;
+            height: 400px;
+            background-color: white;
+            transform: translate(360px,40px);
+            margin-right: 29px;
+            transition: 1s;
+            &:hover{
+            background: linear-gradient(90deg, rgba(252,46,46,1) 0%, rgba(253,62,29,1) 50%, rgba(252,69,153,1) 100%);
+                color:white;
+                transition: 1s;
+                transform: translate(360px,35px);
+                box-shadow: 4px 10px 3px #f43b57;
+            }
+            h4{
+                text-align: center;
+                transform: translate(0px,40px);
+            }
+            h5{
+                font-size: 15px;
+                transform: translate(0px,40px);
+                color: rgb(121, 121, 121);
+                text-align: center;
+            }
+            img{
+                transform: translate(15px,80px);
+            }
+        }
+        .uc{
+                width: 20%;
+                height: 400px;
+                background-color: white;
+                transform: translate(360px,40px);
+                transition: 1s;
+                &:hover{
+                background: linear-gradient(90deg, rgba(252,46,46,1) 0%, rgba(253,62,29,1) 50%, rgba(252,69,153,1) 100%);
+                    color:white;
+                    transition: 1s;
+                    transform: translate(360px,35px);
+                    box-shadow: 4px 10px 3px #f43b57;
+                }
+                img{
+                    transform: translate(15px,80px);
+                }
+                h4{
+                    text-align: center;
+                    transform: translate(0px,40px);
+                }
+                h5{
+                    font-size: 15px;
+                    text-align: center;
+                    transform: translate(0px,40px);
+                    color: rgb(121, 121, 121);
+                }
+        }
+    }
+}
+
+.photos .bir:hover> h5{
+    color:white;
+}
+.photos .iki:hover> h5{
+    color:white;
+}
+.photos .uc:hover> h5{
+    color:white;
+}

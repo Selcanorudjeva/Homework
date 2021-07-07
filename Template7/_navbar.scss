@@ -1,0 +1,199 @@
+.sidebar{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    header{
+        ul{
+            margin: 0;
+            padding: 0;
+            .line{
+                width: 100%;
+                height: 1px;
+                background-color: rgb(194, 194, 194);
+            }
+            li{
+              
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    line-height: 65px;
+                    font-size: 20px;
+                    padding-left: 30px;
+                    box-sizing: border-box;
+                    color:black;
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+
+}
+label #btn{
+    left: 40px;
+    top:25px;
+    font-size: 35px;
+   padding: 6px 12px;
+}
+label #cancel{
+    z-index: 1111;
+    left:-195px;
+    top: 17px;
+    font-size: 30px;
+    padding: 4px 9px;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel{
+    left: 195px;
+}
+#check:checked ~ .navbar-2{
+    width: 72%;
+    margin-left: 195px;
+}
+#check:checked ~ .textsolve{
+    width: 72%;
+    margin-left: 210px;
+}
+#check:checked ~ .slider1{
+    width: 72%;
+    margin-left: 210px;
+}
+#check:checked ~ .carousel-fade{
+    width: 70%;
+    margin-left: 210px;
+}
+#check:checked ~ .text-second{
+    width: 72%;
+    margin-left: 210px;
+}
+#check:checked ~ .text-third{
+    width: 72%;
+    margin-left: 210px;
+}
+#check:checked ~ .indicator{
+    width: 70%;
+    margin-left: 210px;
+}
+#check:checked ~ .fourth{
+    width: 70%;
+    transform: translate(70px,0px);
+    margin-left: 210px;
+    img{
+        transform: translate(200px,0px);
+    }
+}
+#check:checked ~ .slidernew{
+   width: 78%;
+   transform: translate(110px,50px);
+    margin-left: 215px;
+    img{
+        transform: translate(130px,20px);
+    }
+    .icons-1{
+        transform: translate(-50px,0px);
+    }
+    .carousel-control-next-icon{
+        transform: translate(-290px, 0px);
+    }
+   
+}
+.navbar-2{
+    width: 100%;
+    height: 48px;
+  transform: translate(100px,0px);
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+
+   .ilkhisse{
+       display:flex;
+       flex-direction: row;
+       .search{
+           transform: translate(25px,5px);
+           background-color: #f7f7f7;
+           color: gray;
+           margin-left: 20px;
+           width: 5%;
+           height: 36px;
+           border-radius: 20px 1px 1px 20px;
+           i{
+               padding: 10px;
+           }
+       }
+    form{
+        input{
+            width: 400px;
+            border: none;
+            transform: translate(25px,5px);
+            border-radius: none;
+            background-color: #f7f7f7;
+            border-radius: 1px 20px 20px 1px;
+           
+        }
+        .form-control:focus {
+            color: #212529;
+    
+    box-shadow:none;
+        }
+    }
+   }
+   .listi{
+transform: translate(450px,0px);     
+  ul{
+ display: flex;
+       flex-direction: row;
+       li{
+           list-style-type:none;
+           i{color: rgba(0, 0, 0, 0.842);
+        font-size:25px ;
+        margin-left: 20px;
+                }
+                sup{
+                    transform: translate(-50px,-60px);
+                    height: 13px;
+                    display: inline;
+                    border-radius: 20px;
+                    background-color: red;
+                    color: white;
+
+                }
+        button{
+            background-color: red;
+            color:white;
+            border-radius: 30px;
+            &:hover{
+                background-color: rgb(36, 36, 36);
+                color: white;
+                border:1px solid rgb(36, 36, 36);
+            }
+        }
+            img{
+                transform: translate(30px,0px);
+            }
+       }
+       }
+   }
+}
